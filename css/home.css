@@ -1,0 +1,159 @@
+.head{
+	display: flex;
+	height: 98px;
+	margin-left:200px;
+}
+.logo{
+	width:208px;
+	height:98px;
+}
+.head h3{
+	color: darkgrey;
+	font-size: 15px;
+}
+.slogan{
+	margin-top: 40px;
+	margin-left: 30px;
+}
+.contact{
+	margin-left: 200px;
+	margin-top: 30px;
+}
+.contact span{
+	color: dodgerblue;
+	font-weight: bold;
+}
+.contact span:nth-of-type(1){
+	font-size: 15px;
+}
+.contact span:nth-of-type(2){
+	font-size: 25px;
+}
+.contact img{
+	width:30px;
+	height:38px;
+	vertical-align: bottom;
+}
+nav{
+	background: dodgerblue;
+	height: 42px;
+	margin-top: 10px;
+}
+nav ul{
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+nav ul li a{
+	margin-right:50px;
+	color: #fff;
+	display: inline-block;
+	font-size:18px;
+}
+.bannar img{
+	width: 100%;
+	height: 360px;
+}
+.hot_product{
+	margin-top: 10px;
+}
+.hot_product .title{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #A9A9A9;
+	height:30px;
+	position: relative;
+}
+.title div,span{
+	color:#38f;
+	font-weight:bold;
+}
+.title div{
+	width: 100px;
+	border-bottom:2px solid #38f;
+	padding-left: 30px;
+	position:relative;
+	bottom: -2px;
+}
+.more{
+	font-size: 12px;
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+}
+.hot_product .list{
+	display: flex;
+	margin-top: 10px;
+}
+.hot_product .list .item{
+	text-align: center;
+	margin-right:15px;
+	border: 1px solid #8F8E8E;
+	width: 155px;
+	}
+.hot_product .list .item img{
+	width: 155px;
+	height: 148px;
+}
+.hot_product .list .item span{
+	display: inline-block;
+}
+.hot_product .list .item span:nth-of-type(1){
+	color: #444;
+	margin-top:7px;
+}
+.hot_product .list .item span:nth-of-type(2){
+	color: #777;
+	font-size: 10px;
+	margin-top:7px;
+	margin-bottom: 12px;
+}
+.product_brief{
+	margin-top: 10px;
+}
+.product_brief .title{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #A9A9A9;
+	height:30px;
+}
+.brief{
+	padding-top: 20px;
+	padding-left:40px;
+}
+.product_brief .item{
+	display: flex;
+}
+.product_brief .info{
+	margin-left: 60px;
+}
+.product_brief .item .text{
+	color:#777;
+	line-height: 25px;
+	letter-spacing: 2px;
+}
+.product_brief .item  .btn{
+	background: dodgerblue;
+	width: 108px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.product_brief .item  .btn a{
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
